@@ -1,0 +1,11 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<ContentModels.About>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{
+	Layout = null;
+}
+<html>
+    <body>
+        <h1>About</h1>
+        <h2>@Model.Value("pageContentText")</h2>
+    </body>
+</html>
